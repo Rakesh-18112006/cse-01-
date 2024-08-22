@@ -12,7 +12,7 @@ import TimeTable from './TimeTable';
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
+        <BrowserRouter basename='cse-01-'>
         <Routes>
          <Route path='/'  element= {<Home></Home>}/>
           <Route path='/rows'  element= {<DisplayAssignment> </DisplayAssignment>}/>
